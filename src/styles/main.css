@@ -15,6 +15,8 @@
 	--nav-text: var(--white);
 
 	/* Header */
+	height: 100vh;
+
 	--header-bg: var(--black);
 	--header-text: var(--white);
 
@@ -45,8 +47,9 @@
 	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
 
-html,
-body {
+html, body {
+	margin : 0;
+	padding : 0;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -62,6 +65,7 @@ body {
 /* General */
 
 .container {
+
 	margin: 0 auto;
 	padding: 0 15px;
 	max-width: 1200px;
