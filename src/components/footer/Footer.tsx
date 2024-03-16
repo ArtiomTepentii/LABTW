@@ -1,7 +1,7 @@
 import vk from "../../img/icons/vk.svg";
 import instagram from "../../img/icons/instagram.svg";
 import gitHub from "../../img/icons/gitHub.svg";
-
+import "./style.css";
 function Footer() {
     return (
         <footer className="footer">
